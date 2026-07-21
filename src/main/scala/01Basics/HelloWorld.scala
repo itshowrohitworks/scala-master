@@ -1,3 +1,3 @@
 @main
-def variablesDemo(): Unit =
+def helloWorld(): Unit =
   println("Hello, World!")
