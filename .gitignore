@@ -1,0 +1,74 @@
+*.class
+*.tasty
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+*.class
+*.tasty
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# ===========================
+# IntelliJ IDEA
+# ===========================
+
+.idea/
+*.iml
+
+# ===========================
+# Scala CLI
+# ===========================
+
+.scala-build/
+
+# ===========================
+# Build Output
+# ===========================
+
+target/
+out/
+
+# ===========================
+# Bloop
+# ===========================
+
+.bloop/
+
+# ===========================
+# Metals (VS Code)
+# ===========================
+
+.metals/
+
+# ===========================
+# BSP
+# ===========================
+
+.bsp/
+
+# ===========================
+# Coursier Cache (optional)
+# Usually outside the project, but ignore if present.
+# ===========================
+
+.coursier/
+
+# ===========================
+# OS Files
+# ===========================
+
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Logs
+# ===========================
+*.log
+
+# ===========================
+# Temporary Files
+# ===========================
+
+*.tmp
+*.swp
