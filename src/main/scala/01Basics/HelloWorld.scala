@@ -1,3 +1,3 @@
 @main
-def helloWorld(): Unit =
+def helloWorld(): Unit = // Unit means return None
   println("Hello, World!")
